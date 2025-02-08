@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.all{
+    width: 100%;
+    height: auto;
+    padding: 2% 5%;
+}
+.bg{
+    width: 111%;
+    height: 100vh;
+    background: #252B42;
+    margin: -2.16% -5.5%;
+    color: #fff;
+    padding: 2% 5%;
+}
+.navbar{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background: #252B42;
+}
+.container{
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+    gap: 30px;
+    list-style: none;
+    margin-left: 100px;
+}
+.login{
+    display: flex;
+    margin-left: 500px;
+    gap: 10px;
+}
+.login button{
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 17px;
+    border: none;
+}
+.login_btn{
+    background: transparent;
+}
+.join{
+    background: #23A6F0;
+    transition: 1s;
+    cursor: pointer;
+}
+.join:hover{
+    border: 2px solid #23A6F0;
+    background: transparent;
+    color: #23A6F0;
+    transition: 1s;
+}
+.banner{
+    height: 86vh;
+    display: flex;
+}
+.banner_txt{
+    width: 50%;
+    height: 100%;
+    padding-top: 80px;
+    padding-left: 40px;
+}
+.banner_txt b{
+    color: #23A6F0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.banner_txt b:hover{
+    color: #fff;
+    transition: 0.5s;
+}
+.banner_txt h1{
+    width: 500px;
+    font-size: 50px;
+    line-height: 60px;
+    margin-top: 40px;
+}
+.banner_txt p{
+    width: 350px;
+    margin-top: 30px;
+    line-height: 30px;
+    font-size: 18px;
+}
+.btns{
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+}
+.btns button{
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 17px;
+}
+.btn{
+    background: #23A6F0;
+    border: none;
+    transition: 1s;
+    cursor: pointer;
+}
+.btn:hover{
+    border: 2px solid #23A6F0;
+    background: transparent;
+    color: #23A6F0;
+    transition: 1s;
+}
+.btn2{
+    background: transparent;
+    border: 2px solid #23A6F0;
+    transition: 1s;
+    cursor: pointer;
+}
+.btn2:hover{
+    border: 2px solid #23A6F0;
+    background: #23A6F0;
+    color: #fff;
+    transition: 1s;
+}
+.banner_img{
+    width: 50%;
+    height: 100%;
+    display: block;
+    padding-left: 80px;
+}
+.rec{
+    width: 160px;
+    height: 130px;
+    background: #5AACA8;
+    z-index: 1;
+    margin-left: 400px;
+    margin-top: 30px;
+}
+.img1{
+    width: 391px;
+    height: 466px;
+    z-index: 2;
+    margin-left: 80px;
+    margin-top: -80px;
+    cursor: pointer;
+    transition: 1s;
+}
+.img1:hover{
+    transform: scale(1.1);
+    z-index: 4;
+    transition: 1s;
+}
+.img2{
+    width: 250px;
+    height: 230px;
+    z-index: 3;
+    margin-top: -160px;
+    cursor: pointer;
+    transition: 1s;
+}
+.img2:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.banner2{
+    height: 85vh;
+    display: flex;
+    margin-top: 25px;
+    padding: 40px 0px;
+}
+.banner2_txt{
+    width: 50%;
+    height: 100%;
+}
+.line{
+    width: 100px;
+    height: 10px;
+    background: #E74040;
+    margin-top: 140px;
+}
+.banner2_txt h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.banner2_txt p{
+    margin-top: 25px;
+    width: 385px;
+    font-size: 18px;
+}
+.link{
+    color: #23A6F0;
+    display: flex;
+    transition: 1s;
+    cursor: pointer;
+}
+.link:hover{
+    transition: 1s;
+    transform: scale(1.05);
+}
+.xoromi{
+    margin-left: -285px;
+    margin-top: 102px;
+}
+.banner2_card{
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+.card{
+    width: 220px;
+    height: 280px;
+    box-shadow: 15px 15px 40px rgba(0, 0, 0.75);
+    padding: 10%;
+    cursor: pointer;
+    transition: 1s;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.card1 {
+    width: 220px;
+    height: 280px;
+    box-shadow: 15px 15px 40px rgba(0, 0, 0.75);
+    padding: 4%;
+    margin-left: 60px;
+    margin-top: 150px;
+    cursor: pointer;
+    transition: 1s;
+}
+.card1:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.card img{
+    margin-top: 5px;
+}
+.card h1{
+    font-size: 21px;
+    margin-top: 10px;
+}
+.line2{
+    width: 50px;
+    height: 5px;
+    margin-top: 10px;
+    background: #E74040;
+}
+.card p{
+    margin-top: 15px;
+}
+.card1 img{
+    margin-top: 5px;
+}
+.card1 h1{
+    font-size: 21px;
+    margin-top: 10px;
+}
+.card1 p{
+    margin-top: 15px;
+}
+.banner2_img{
+    width: 50%;
+    height: 100%;
+    display: block;
+    padding-left: 80px;
+}
+.rec2{
+    width: 160px;
+    height: 130px;
+    background: #B6D7FF;
+    z-index: 1;
+    margin-left: 400px;
+    margin-top: 30px;
+}
+.banner2_img img{
+    width: 391px;
+    height: 466px;
+    z-index: 2;
+    margin-left: 80px;
+    margin-top: -80px;
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    background: #FEB896;
+    margin-top: -30px;
+    border-radius: 50%;
+    margin-left: 60px;
+}
+.newsletter{
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 10px;
+    height: 600px;
+    overflow: hidden;
+    padding-top: 80px;
+}
+.newsletter b{
+    margin-left: 580px;
+    color: #23A6F0;
+}
+.newsletter h1{
+    width: 600px;
+    font-size: 40px;
+    margin: 20px 340px;
+    text-align: center;
+}
+.newsletter p{
+    font-size: 18px;
+    width: 550px;
+    text-align: center;
+    margin-left: 340px;
+    margin-top: 15px;
+}
+.input{
+    width: 850px;
+    height: 55px;
+    margin-top: 75px;
+    border-radius: 5px;
+    background: #dddddd;
+    margin-left: 220px;
+    display: flex;
+}
+.input input{
+    width: 80%;
+    background: transparent;
+    padding-left: 30px;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+}
+.input button{
+    width: 18%;
+    height: 100%;
+    border-radius: 5px;
+    border: none;
+    margin-left: 2%;
+    background: #23A6F0;
+    color: #fff;
+    font-size: 16px;
+    padding-top: 5px;
+}
+.input button:hover{
+    transform: scale(1.05);
+    border: 2px solid #23A6F0;
+    background: transparent;
+    color: #23A6F0;
+    transition: 1s;
+}
+.input button p{
+    margin-top: -22px;
+    margin-left: 30px;
+}
+.footers{
+    width: 100%;
+    height: 65vh;
+    padding: 10%;
+    overflow: hidden;
+}
+.footer{
+    display: flex;
+    gap: 10px;
+}
+.footer h1{
+    width: 200px;
+}
+.item2{
+    width: 300px;
+    margin-top: 10px;
+    list-style: none;
+    cursor: pointer;
+    transition: 1s;
+}
+.item2:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.newsletter p{
+    margin-top: 10px;
+}
+.footers hr{
+    margin-top: 60px;
+}
+.copyright{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+.p2{
+    margin-left: 710px;
+}
+.p3{
+    margin-left: 10px;
+}
+.copyright p{
+    margin-left: 310px;
+    font-size: 22px;
+}
+.container2 p{
+    margin-top: 20px;
+}
